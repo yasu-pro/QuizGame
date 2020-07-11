@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style type="text/css">
+      form {
+        display: none;
+      }
+      #nextBtn {
+        display: none;
+      }
+    </style>
+    <title>Quiz</title>
+  </head>
+  <body>
+    <div id="quizGame">クイズゲーム</div>
+    <div id="questionScreen"></div>
+
+    <form id="target" name="target_name">
+      <div>
+        <label for="answer1" id="labelAnswer1">
+          <p id="answer1_p"></p>
+          <input type="radio" name="answer" id="answer1" value="" />
+        </label>
+      </div>
+      <div>
+        <label for="answer2" id="labelAnswer2">
+          <p id="answer2_p"></p>
+          <input type="radio" name="answer" id="answer2" value="" />
+        </label>
+      </div>
+      <div>
+        <label for="answer3" id="labelAnswer3">
+          <p id="answer3_p"></p>
+          <input type="radio" name="answer" id="answer3" value="" />
+        </label>
+      </div>
+    </form>
+
+    <button id="startBtn">クイズスタート</button>
+    <button id="nextBtn">次の問題へ</button>
+
+    <script type="text/javascript" src="/index.js"></script>
+  </body>
+</html>
